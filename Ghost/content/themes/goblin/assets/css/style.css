@@ -1743,6 +1743,9 @@ body[data-post-align="right"] .body-content .post .post-header .header-wrap .pos
 	content: '';
 	background-color: rgba(0, 0, 0, 0.2);
 }
+.body-content .post .post-header.video-post .video .mb_YTPBar{
+	display: none !important;
+}
 body[data-post-align="right"] .body-content .post .post-header.video-post .header-wrap .line::after {
 	right: 40px;
 }
